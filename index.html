@@ -22,10 +22,12 @@
     </footer>
     <script type="text/babel">
       const Banner = () => {
+        const title = "REACT NINJA";
         return (
           // main element
           <div className="banenr">
-            <p>banner</p>
+            <p>{title}</p>
+            <p>Actual Date: {new Date().toDateString()}</p>
             <div></div>
           </div>
         );
